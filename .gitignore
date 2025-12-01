@@ -1,0 +1,27 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environment
+.venv/
+
+# Publishing guide (internal only)
+PUBLISHING.md
+
+# Example scripts (not part of package)
+main.py
+visualize.py
+
+# Data files
+data/*.csv
+
+# Generated outputs
+*.png
+*.pdf
+*.svg
+
+# UV lock file
+uv.lock
