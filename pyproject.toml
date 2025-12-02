@@ -7,17 +7,17 @@ name = "pygts"
 version = "0.1.0"
 description = "Fetch and visualize geographic distribution data for tree species from the BGCI Global Tree Search database"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.10"
 license = {file = "LICENSE"}
 authors = [
     {name = "Charbel EL KHOURY"}
 ]
 dependencies = [
-    "geopandas>=1.0.0",
-    "matplotlib>=3.5.0",
-    "pandas>=2.0.0",
-    "requests>=2.28.0",
-    "tqdm>=4.65.0",
+    "geopandas",
+    "matplotlib",
+    "pandas",
+    "requests",
+    "tqdm",
 ]
 
 [project.urls]
