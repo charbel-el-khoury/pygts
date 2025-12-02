@@ -13,11 +13,12 @@ authors = [
     {name = "Charbel EL KHOURY"}
 ]
 dependencies = [
-    "geopandas",
-    "matplotlib",
-    "pandas",
-    "requests",
-    "tqdm",
+    "geopandas>=1.1.1",
+    "matplotlib>=3.10.7",
+    "pandas>=2.3.3",
+    "pytest>=9.0.1",
+    "requests>=2.32.5",
+    "tqdm>=4.67.1",
 ]
 
 [project.urls]
